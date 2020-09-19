@@ -1,0 +1,30 @@
+#input sample
+A=('')
+user_name=input("要找的字:")
+B= A + user_name
+C=list(B)
+print(C)
+#file open
+D=('')
+xs=input("比較對象")
+E= D + xs
+F=list(E)
+
+print(F)
+p=0
+g=('')
+d=('')
+m=0
+n=0
+
+while n <len(F):
+    if C［m］==F［n］:
+        g = g + n
+    else:
+        pass
+    n = n + 1
+else:
+    m = m + 1
+    n = 0
+    base = g
+print(base)
